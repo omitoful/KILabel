@@ -661,12 +661,12 @@ NSString * const KILabelLinkKey = @"link";
     [super touchesEnded:touches withEvent:event];
     
     // If the user dragged their finger we ignore the touch
-    if (_isTouchMoved)
-    {
-        self.selectedRange = NSMakeRange(0, 0);
-        
-        return;
-    }
+//    if (_isTouchMoved)
+//    {
+//        self.selectedRange = NSMakeRange(0, 0);
+//        
+//        return;
+//    }
     
     // Get the info for the touched link if there is one
     NSDictionary *touchedLink;
